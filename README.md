@@ -1,0 +1,2 @@
+# A weather app that givers the weather information of a user given location. It accomplishes this by using Geonames API(findNearByWeatherXML).
+It also gives a message to the user according to the weather if he should carry an umbrella, wear warm clothes etc.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Student Name: Sonal Choudhary, ID: 1001453393, Project Name: Project 1, Due Date: October 19 -->
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+    <style type="text/css">
+    .inputbox{position:relative;
+               left:100px;
+               top:50px;
+               width:400px;
+               height:40px;
+               font-size: 12px;
+               margin: 4px 2px;
+               background-color: blue;
+               padding: 25px;
+               }
+
+    .result{position:relative;
+                top:100px;
+                left:100px;
+               }
+    </style>
+    
+  </head>
+  <body onload="initialize();">
+    <div class="inputbox">
+      <form>
+        <label>City : <input type="text" id="form-input"/></label>
+        <input type="button" onclick="sendRequest();" value="Display Information"/>
+        </div>
+      </form>
+    </div>
+
+    <div class="result">
+    <div id="message"></div></br>
+    <div id="cityname">&nbsp;</div>
+    <div id="latitude">&nbsp;</div>
+    <div id="longitude">&nbsp;</div>
+    <div id="sunrise">&nbsp;</div>
+    <div id="sunset">&nbsp;</div>
+    <div id="pressure">&nbsp;</div>
+    <div id="humidity">&nbsp;</div>
+    <div id="temp">&nbsp;</div>
+    <div id="mintemp">&nbsp;</div>
+    <div id="maxtemp">&nbsp;</div>
+    <div id="visibility">&nbsp;</div>
+    <div id="clouds">&nbsp;</div>
+    </div>
+  </body>
+</html>
